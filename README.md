@@ -1,6 +1,6 @@
-# No' Mo' No' Mo'
+# No Mo' No' Mo'
 
-🧐 It's not a cryptic message. It's cool speak for _No More Node Modules_
+> 🧐 It's not a cryptic message. It's cool speak for _No More Node Modules_
 
 
 A Bash script to recursively delete all node_modules folders in the current directory and its subdirectories.
@@ -35,13 +35,19 @@ Useful for reclaiming disk space or cleaning up JavaScript projects.
 ### Option 1: Create a shell alias
 
 1. Add this to your ~/.bashrc or ~/.zshrc:
-   `alias nomo='/YOUR/PATH/TO/nomo.sh'`
+   ```bash
+   alias nomo='/YOUR/PATH/TO/nomo.sh'
+   ```
 
 2. Reload your shell config:
-   `source ~/.bashrc   # or ~/.zshrc`
+   ```bash
+   source ~/.bashrc   # or ~/.zshrc
+   ```
 
 3. Run from anywhere:
-   `nomo`
+   ```bash
+   nomo
+   ```
 
 
 ### Option 2: Add the script folder to your $PATH
@@ -53,16 +59,23 @@ Useful for reclaiming disk space or cleaning up JavaScript projects.
    ```
 
 2. Add scripts dir to PATH in your ~/.bashrc or ~/.zshrc:
-   `export PATH="$HOME/scripts:$PATH"`
+
+   ```bash
+   export PATH="$HOME/scripts:$PATH"
+   ```
 
 3. Reload your shell config:
-   `source ~/.bashrc   # or ~/.zshrc`
+   ```bash
+   source ~/.bashrc   # or ~/.zshrc
+   ```
 
 4. Run from anywhere:
+   ```bash
    `nomo.sh`
+   ```
 
 ------------------------------------------------------------
 
 💬 License
 
-Feel free to use, modify, and share! No warranty — use at your own risk.
+Entirely free to use, modify, and share! No warranty — use at your own risk!
